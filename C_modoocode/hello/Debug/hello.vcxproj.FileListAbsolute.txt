@@ -1,0 +1,2 @@
+C:\Users\Junho\Documents\GitHub\C_projects\C_modoocode\hello\Debug\hello.exe
+C:\Users\Junho\Documents\GitHub\C_projects\C_modoocode\hello\Debug\hello.pdb
