@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\Exchange\main.c(13,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Exchange.vcxproj -> C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\Exchange\Debug\Exchange.exe

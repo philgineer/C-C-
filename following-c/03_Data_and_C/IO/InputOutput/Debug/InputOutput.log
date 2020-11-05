@@ -1,0 +1,6 @@
+﻿  main.c
+  exchange.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\InputOutput\exchange.c(11,23): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+exchange.obj : error LNK2005: _main already defined in main.obj
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\InputOutput\Debug\InputOutput.exe : fatal error LNK1169: one or more multiply defined symbols found
