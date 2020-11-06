@@ -1,0 +1,5 @@
+﻿  int.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\int\int.c(17,9): warning C4477: 'printf' : format string '%ld' requires an argument of type 'long', but variadic argument 2 has type '__int64'
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\int\int.c(17,9): message : consider using '%lld' in the format string
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\int\int.c(17,9): message : consider using '%I64d' in the format string
+  int.vcxproj -> C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\InputOutput\Debug\int.exe
