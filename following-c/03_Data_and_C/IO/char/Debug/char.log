@@ -1,0 +1,3 @@
+﻿  char.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\char\char.c(19,8): warning C4101: 'salary': unreferenced local variable
+  char.vcxproj -> C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\InputOutput\Debug\char.exe
