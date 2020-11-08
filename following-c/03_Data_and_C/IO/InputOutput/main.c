@@ -1,4 +1,4 @@
-// #define _CRT_SECURE_NO_WARNINGS
+ï»¿// #define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 
@@ -8,7 +8,7 @@ int main()
 
 	printf("Input two integers\n");
 
-	scanf("%d%d", &i, &j); // &: ampersand: ÁÖ¼Ò¿¡ (Á÷Á¢) Á¢±Ù
+	scanf("%d%d", &i, &j); // &: ampersand: ì£¼ì†Œì— (ì§ì ‘) ì ‘ê·¼
 
 	printf("%d plus %d is %d\n", i, j, i + j);
 
