@@ -18,8 +18,5 @@
     <ClCompile Include="float_limit.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="float_limit2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>

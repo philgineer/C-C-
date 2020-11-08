@@ -15,15 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="overflow.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="overflow2.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="overflow3.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="overflow4.c">
       <Filter>Source Files</Filter>
     </ClCompile>

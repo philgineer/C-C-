@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <limits.h>
 #include <stdlib.h>
 
@@ -11,10 +11,10 @@ int main()
 	long long ll = 12345678908642LL;
 
 	printf("char = %hhd, %d, %c\n", c, c, c);
-	printf("short = %hhd, %hd, %d\n", s, s, s); // %hhd¿¡¼­ overflow
-	printf("unsigned int = %u, %d\n", ui, ui); // %d¿¡¼­ overflow
-	printf("long = %ld, %hd\n", l, l); // %hd¿¡¼­ overflow
-	printf("long long = %lld, %ld\n", ll, ll); // %ld¿¡¼­ overflow
+	printf("short = %hhd, %hd, %d\n", s, s, s); // %hhdì—ì„œ overflow
+	printf("unsigned int = %u, %d\n", ui, ui); // %dì—ì„œ overflow
+	printf("long = %ld, %hd\n", l, l); // %hdì—ì„œ overflow
+	printf("long long = %lld, %ld\n", ll, ll); // %ldì—ì„œ overflow
 
 
 	return 0;
