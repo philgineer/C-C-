@@ -21,5 +21,8 @@
     <ClCompile Include="overflow2.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="overflow3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
