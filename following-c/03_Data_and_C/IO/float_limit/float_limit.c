@@ -36,8 +36,8 @@ int main()
 	printf("%e\n", asin); // 0.523598776 (rad) = 30 degree
 	
 	asin = asinf(2.0f); // sin은 2 값을 가지지 않는다
-	printf("%e\n", asin);
-
+	printf("%e\n", asin); // -nan(ind)
+	// nan: not a number, ind: indeterminate number
 
 	return 0;
 }

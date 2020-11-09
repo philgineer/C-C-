@@ -1,0 +1,13 @@
+﻿  bool_complex.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(26,18): error C2146: syntax error: missing ';' before identifier 'z'
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(26,20): error C2065: 'z': undeclared identifier
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(26,28): error C2088: '*': illegal for struct
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(28,4): error C2065: 'z': undeclared identifier
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(28,11): error C2065: 'z': undeclared identifier
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,7): warning C4013: 'print' undefined; assuming extern returning int
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,51): error C2065: 'z': undeclared identifier
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,51): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,50): warning C4024: 'creal': different types for formal and actual parameter 1
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,61): error C2065: 'z': undeclared identifier
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,61): error C2440: 'function': cannot convert from 'int' to '_Dcomplex'
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\03_Data_and_C\IO\bool_complex\bool_complex.c(30,60): warning C4024: 'cimag': different types for formal and actual parameter 1
