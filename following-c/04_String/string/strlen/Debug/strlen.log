@@ -1,0 +1,3 @@
+﻿  strlen.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\strlen\strlen.c(23,28): warning C4013: 'malloc' undefined; assuming extern returning int
+  strlen.vcxproj -> C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\Debug\strlen.exe
