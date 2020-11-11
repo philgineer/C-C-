@@ -1,0 +1,4 @@
+﻿  printf_conversion.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\printf_conversion\printf_conversion.c(41,17): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\printf_conversion\printf_conversion.c(41,17): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  printf_conversion.vcxproj -> C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\Debug\printf_conversion.exe
