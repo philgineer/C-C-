@@ -1,0 +1,7 @@
+﻿  modifier.c
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\modifier\modifier.c(35,33): warning C4307: '+': signed integral constant overflow
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\modifier\modifier.c(35,46): warning C4307: '+': signed integral constant overflow
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\modifier\modifier.c(35,9): warning C4477: 'printf' : format string '%lld' requires an argument of type '__int64', but variadic argument 2 has type 'int'
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\modifier\modifier.c(35,9): message : consider using '%d' in the format string
+C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\modifier\modifier.c(35,9): message : consider using '%I32d' in the format string
+  modifier.vcxproj -> C:\Users\Junho\Documents\GitHub\C_projects\following-c\04_String\string\x64\Debug\modifier.exe
