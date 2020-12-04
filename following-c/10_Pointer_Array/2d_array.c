@@ -33,4 +33,12 @@ int main()
 	}
 	printf("\n");
 
+
+	/* Pointers to multidimensional arrays */
+	
+	float arr2d[2][4] = { {1.0f, 2.0f, 3.0f, 4.0f}, {5.0f, 6.0f, 7.0f, 8.0f} };
+
+	float (*pa)[f]; // a single pointer to an array of 2 floats (size: 4)
+	float * ap[2];	// an array of two pointers-to-float (size: 4 * 2)
+
 }
