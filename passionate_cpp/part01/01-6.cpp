@@ -1,5 +1,7 @@
 #include <iostream>
 
+enum {CREATE=1, DEPOSIT, WITHDRAW, PRINT, EXIT};
+
 typedef struct {
 	int id;
 	int balance;
@@ -7,7 +9,7 @@ typedef struct {
 } Account;
 
 Account arr[100];
-int i = 0;
+int ACC_INDEX = 0;
 int error = 0;
 
 int isValidNumber(char str[]) {
@@ -41,7 +43,7 @@ void printMenu() {
 
 void createAccount() {
 	int temp;
-	if (i > 99) {
+	if (ACC_INDEX > 99) {
 		std::cout << "\n! Account list is full.\n" << std::endl;
 		error = 1;
 		return ;
@@ -51,11 +53,11 @@ void createAccount() {
 	if (temp == -1) {
 		std::cout << "\n! Invaid input.\n\n";
 	} else {
-		arr[i].id = temp;
-		arr[i].balance = 0;
+		arr[ACC_INDEX].id = temp;
+		arr[ACC_INDEX].balance = 0;
 		std::cout << "Name: ";
-		std::cin >> arr[i].name;
-	i++;
+		std::cin >> arr[ACC_INDEX].name;
+	ACC_INDEX++;
 	}
 }
 
@@ -75,7 +77,7 @@ void deposit() {
 		std::cout <<" \n! Invaid input.\n";
 		return;
 	}
-	for (int k = 0; k < i + 1; k++) {
+	for (int k = 0; k < ACC_INDEX + 1; k++) {
 		if (arr[k].id == d_id) {
 			arr[k].balance += d_amount;
 			std::cout << "\nSucceed.\n";
@@ -101,7 +103,7 @@ void withdraw() {
 		std::cout <<" \n! Invaid input.\n";
 		return;
 	}
-	for (int k = 0; k < i + 1; k++) {
+	for (int k = 0; k < ACC_INDEX + 1; k++) {
 		if (arr[k].id == w_id) {
 			arr[k].balance -= w_amount;
 			std::cout << "\nSucceed.\n";
@@ -113,7 +115,7 @@ void withdraw() {
 
 void printAccount() {
 	std::cout << "------------Accounts------------" << std::endl;
-	for (int j = 0; j < i; j++) {
+	for (int j = 0; j < ACC_INDEX; j++) {
 		std::cout << "Account ID: " << arr[j].id << std::endl;
 		std::cout << "Name: " << arr[j].name << std::endl;
 		std::cout << "Balance: " << arr[j].balance << std::endl;
@@ -122,31 +124,31 @@ void printAccount() {
 }
 
 int main() {
-	char choice = '0';
-	while (choice != '5') {
-		choice = '0';
+	int choice = 0;
+
+	while (1) {
 		if (error == 1) {
 			std::cout << "! Error 1 occurred.\n\n";
 			return 1;
 		}
 		printMenu();
 		std::cout << ">> Select: ";
-		std::cin >> choice;
+		choice = validInput();
 		switch (choice)
 		{
-			case '1':
+			case CREATE:
 				createAccount();
 				break;
-			case '2':
+			case DEPOSIT:
 				deposit();
 				break;
-			case '3':
+			case WITHDRAW:
 				withdraw();
 				break;
-			case '4':
+			case PRINT:
 				printAccount();
 				break;
-			case '5':
+			case EXIT:
 				return 0;
 			default:
 				std::cout << "\n! Unknown input.\n" << std::endl;
