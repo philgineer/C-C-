@@ -1,2 +1,4 @@
 *.json
 *.out
+img/
+*.DS_Store
